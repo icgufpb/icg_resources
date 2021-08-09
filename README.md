@@ -1,5 +1,5 @@
 # icg
-ICG classes resources.
+ICG resources.
 
 ## References
 
@@ -8,6 +8,12 @@ ICG classes resources.
 * [Computer Graphics from Scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/index.html), by Gabriel Gambetta.
 
 * [Introduction to Computer Graphics](https://math.hws.edu/graphicsbook/), by David J. Eck.
+
+* [Principles of Digital Image Synthesis](http://realtimerendering.com/Principles_of_Digital_Image_Synthesis_v1.0.1.pdf), by Andrew Glassner.
+
+### Ray Tracing
+
+* [An Introduction to Ray Tracing](https://www.realtimerendering.com/raytracing/An-Introduction-to-Ray-Tracing-The-Morgan-Kaufmann-Series-in-Computer-Graphics-.pdf), by Andrew Glassner and freely available at [https://www.realtimerendering.com](https://www.realtimerendering.com).
 
 ### Math
 
