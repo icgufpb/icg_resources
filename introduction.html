@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Introduction to Computer Graphics</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+    <style>
+        #image_label {
+            position: fixed;
+            left: 10px;
+            top: 650px;
+            font-size: 12px;
+            border: 0px;
+            color: rgba(0, 255, 0, 1);
+            opacity: 0.55;
+            background-color: rgba(0, 0, 0, 1);
+        }
+
+
+        .container{
+            display: flex;
+        }
+        .col{
+            flex: 1;
+        }
+
+
+        body {
+            font-family: "Computer Modern Sans", sans-serif;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/theme/black.css">
+    <link rel="stylesheet" href="css/my_theme.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js"></script>
+</head>
+
+<body>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h2>Introduction to Computer Graphics</h2>
+                <img src="images/Cornell_box.png" height="300" width="300" border="0">
+                <div id="image_label"><a href="https://commons.wikimedia.org/wiki/File:Cornell_box.png">SeeSchloss. (Wikipedia)</a></div>
+            </section>
+
+            <section>
+                <h2>What is Computer Graphics?</h2>
+            </section>
+
+            <section data-background="images/whirlwind_mit.jpg">
+                <div id="image_label"><a href="http://news.mit.edu/2009/whirlwind-0522">Dodd, Forrester, Everett and Ferenz, 1950. (MIT)</a></div>
+            </section>
+
+            <section data-background-iframe="https://www.youtube.com/embed/5ZQP4G3Qwb4?start=165&end=210"
+                      data-background-video-loop data-background-video-muted>
+            </section>
+
+            <section>
+                <h2>Computer Graphics today</h2>
+            </section>
+
+            <section>
+                <h2>Fluid simulation...</h2>
+            </section>
+
+            <section data-background-iframe="https://www.youtube.com/embed/fqKVjKo96Es"
+                      data-background-video-loop data-background-video-muted>
+                <div id="image_label"><a href="http://physbam.stanford.edu/~fedkiw/">Irving, G., Guendelman, E., Losasso, F. and Fedkiw, R., 2006. (Stanford)</a></div>
+            </section>
+
+            <section>
+                <h2>Realistic human rendering...</h2>
+            </section>
+
+            <section data-background-iframe="https://www.youtube.com/embed/9owTAISsvwk"
+                      data-background-video-loop data-background-video-muted>
+                <div id="image_label"><a href="https://www.unrealengine.com/en-US/events/siren-at-fmx-2018-crossing-the-uncanny-valley-in-real-time">Siren. (MFX 2018, unrealengine.com)</a></div>
+            </section>
+
+            <section>
+                <h2>Visualizing 3D data...</h2>
+            </section>
+
+            <section data-background="images/maxwell_term_surface.png">
+                <div id="image_label"><a href="https://cudl.lib.cam.ac.uk/view/PH-CAVENDISH-P-00016/1">Maxwell's model of Gibbs's thermodynamic surface of water, 1876. (Cambridge)</a></div>
+            </section>
+
+            <section>
+                <h2>Visualizing multidimensional data...</h2>
+            </section>
+
+            <section data-background-iframe="https://www.youtube.com/embed/wvsE8jm1GzE?start=11&end=173"
+                      data-background-video-loop data-background-video-muted>
+                <div id="image_label"><a href="https://experiments.withgoogle.com/collection/ai">A.I. Experiments: Visualizing High-Dimensional Space. (Google)</a></div>
+            </section>
+
+            <section>
+                <h2>Game rendering engines...</h2>
+            </section>
+
+            <section data-background-iframe="https://www.youtube.com/embed/Oa2drgVThbs?start=7&end=34"
+                      data-background-video-loop data-background-video-muted>
+                <div id="image_label"><a href="https://www.unrealengine.com/en-US/blog/a-first-look-at-unreal-engine-5">Unreal Engine 5. (unrealengine.com)</a></div>
+            </section>
+
+            <section>
+                <h2>Subculture...</h2>
+            </section>
+
+            <section data-background-iframe="https://www.youtube.com/embed/jB0vBmiTr6o?start=78&end=120"
+                      data-background-video-loop data-background-video-muted>
+                <div id="image_label"><a href="http://www.pouet.net/prod.php?which=52938">Elevated, by Rgba & TBC. (pouet.com)</a></div>
+            </section>
+
+            <section>
+                <h2>GPUs and Ray Tracing...</h2>
+            </section>
+
+            <section data-background-iframe="https://www.youtube.com/embed/AV279wThmVU"
+                      data-background-video-loop data-background-video-muted>
+                <div id="image_label"><a href="https://www.starwars.com/news/gdc-2018-epic-games-nvidia-and-ilmxlab-unveil-stunning-star-wars-real-time-ray-tracing-demo">Star Wars: Reflections, 2018. (Epic Games, NVidia, ILMxLAB)</a></div>
+            </section>
+
+            <section>
+                <h2>And much, much more!</h2>
+            </section>
+
+            <section>
+                <h2>Who is hiring CG professionals?</h2>
+            </section>
+
+            <section>
+                <img src="images/company_logos.png"  width="800">
+            </section>
+
+            <section>
+                <h2>This Class</h2><br>
+                <!-- <p class="fragment"><img src="images/this_class_diagram.png"  width="800"></p> -->
+                <div style="position:relative; width:800px; height:600px; margin:0 auto;">
+                    <span class="fragment fade-in" data-fragment-index="1">
+                        <img src="images/p_1.svg" style="position:absolute;top:0px;left:15%;">
+                    </span>
+                    <span class="fragment fade-in" data-fragment-index="2">
+                        <img src="images/p_2.svg" style="position:absolute;top:0px;left:15%;">
+                    </span>
+                    <span class="fragment fade-in" data-fragment-index="3">
+                        <span class="fragment fade-out" data-fragment-index="6">
+                            <img src="images/p_3.svg" style="position:absolute;top:0px;left:15%;">
+                        </span>
+                    </span>
+
+                    <span class="fragment fade-in" data-fragment-index="4">
+                        <img src="images/p_4.svg" style="position:absolute;top:0px;left:15%;">
+                    </span>
+                    <span class="fragment fade-in" data-fragment-index="5">
+                        <img src="images/p_5.svg" style="position:absolute;top:0px;left:15%;">
+                    </span>
+                    <span class="fragment fade-in" data-fragment-index="7">
+                        <img src="images/p_6.svg" style="position:absolute;top:0px;left:15%;">
+                    </span>
+                </div>
+            </section>
+
+            <section data-background="images/adrian_holm__lol.png">
+                <div id="image_label"><a href="https://snl.no/League_of_Legends">League of Legends. (Adrian Holm)</a></div>
+            </section>
+
+
+            <section data-background="images/minecraft.png">
+            </section>
+
+            <section data-background="images/francisco.png">
+                <div id="image_label">Rendering Baseado em Física. (Francisco)</a></div>
+            </section>
+
+            <section>
+                <img src="images/christopher.png"  width="1800">
+                <div id="image_label">Rendering Baseado em Física. (Christopher)</a></div>
+            </section>
+
+            <section>
+                <h2>Course Outline</h2>
+                <p class="fragment">Rasterization</p>
+                <p class="fragment">Geometric transformations</p>
+                <p class="fragment">Graphics pipeline</p>
+                <p class="fragment">Illumination</p>
+                <p class="fragment">Texturing</p>
+                <p class="fragment">Modern Graphics APIs</p>
+                <p class="fragment">Modeling</p>
+                <p class="fragment">Ray Tracing</p>
+            </section>
+
+            <section>
+                <h2>Background</h2>
+                <p class="fragment">Linear algebra</p>
+                <p class="fragment">Programming (e.g. C/C++/JavaScript)</p>
+                <p class="fragment">Computer architecture</p>
+            </section>
+
+            <section>
+                <h2>Classes</h2>
+                <p class="fragment">Video classes</p>
+                <p class="fragment">Video conferences (classes and exercises)</p>
+                <p class="fragment">Readings</p>
+                <p class="fragment">Assignments</p>
+            </section>
+
+            <section>
+                <h2>Grading Policy</h2><br>
+                <p id="fg" class="fragment"></p>
+                <p class="fragment" align="left">where:</p>
+                <p id="grade" class="fragment"></p>
+                <p id="exams" class="fragment"></p>
+                <p id="assignments" class="fragment"></p>
+                <p id="assignments" class="fragment">* Class attendance will be based on assignment submissions!</p>
+
+                <script>
+                    var formula = 'G = \\left( \\frac{P_1 + P_2}{2}\\right) \\times 40\\% + \\left( \\frac{1}{n} \\sum_{i=1}^{n} A_i \\right) \\times 60\\%';
+                    var katex_formula = katex.renderToString(formula, {throwOnError: false,});
+                    document.getElementById("fg").innerHTML = katex_formula;
+
+                    document.getElementById("grade").innerHTML = katex.renderToString('G= ', {throwOnError: false,}) + 'final grade';
+                    document.getElementById("exams").innerHTML = katex.renderToString('P_1, P_2= ', {throwOnError: false,}) + 'exams';
+                    document.getElementById("assignments").innerHTML = katex.renderToString('A_i, 1 \\leq i \\leq n =', {throwOnError: false,}) + 'assignments';
+
+                </script>
+            </section>
+
+            <section>
+                <h2>Bibliography</h2>
+                <p class="fragment"><b>Computer Graphics: Principles and Practice</b><br>
+                <img src="images/book_cc_pp_2.jpg"  width="200">
+                <img src="images/book_cc_pp_3.jpg"  width="200">
+                </p>
+            </section>
+
+            <section>
+                <h2>Bibliography</h2>
+                <b>Real-time Rendering</b><br>
+                <img src="images/book_rt3.jpg"  width="200">
+                <img src="images/book_rt4.jpg"  width="200">
+            </section>
+
+            <section>
+                <h2>Bibliography</h2>
+                <b>Fundamentals of Computer Graphics</b><br>
+                <img src="images/book_cgf2.jpg"  width="200">
+                <img src="images/book_cgf3.jpg"  width="200">
+                <img src="images/book_cgf4.jpg"  width="200">
+            </section>
+
+            <section>
+                <a href="https://www.realtimerendering.com/" data-preview-link>Real-time Rendering</a>
+                <p>(reatimerendering.com)</p>
+            </section>
+
+            <section>
+                <a href="http://immersivemath.com/ila/index.html" data-preview-link>Immersive LinearAlgebra (Immersive Math)</a>
+                <p>(immersivemath.com)</p>
+            </section>
+
+            <section>
+                <a href="https://www.scratchapixel.com/" data-preview-link>Scratchapixel 2.0</a>
+                <p>(scratchapixel.com)</p>
+            </section>
+
+            <section>
+                <h2>Our Platforms</h2>
+                <p class="fragment">SIGAA</p>
+                <p class="fragment">Google Meet</p>
+            </section>
+
+            <section>
+                <h2>That's all for today!</h2>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/headjs@1.0.3/dist/1.0.0/head.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/js/reveal.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/mathjs@7.0.1/dist/math.min.js"></script> -->
+
+    <script>
+        Reveal.initialize({
+            history: false,
+            transition: 'fade',
+            slideNumber: true,
+            //minScale: 1,
+            //maxScale: 1,
+            dependencies: [
+                { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/markdown/marked.js' },
+                { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/markdown/markdown.js' },
+                { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/notes/notes.js', async: true },
+                { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/math/math.js', async: true},
+                //{ src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
+                //{ src: 'plugin/multiplex/master.js', async: true },
+                // and if you want speaker notes
+                //{ src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/notes-server/client.js', async: true }
+
+            ],
+
+                math: {
+                    mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+                 config: 'TeX-AMS_HTML-full'
+                },
+
+            // math: {
+            //     mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+            //     config: 'TeX-AMS_HTML-full',
+            //     // pass other options into `MathJax.Hub.Config()`
+            //     TeX: { Macros: { RR: "{\\bf R}" } }
+            // },
+            //plugins: [ RevealMath ]
+
+        });
+    </script>
+
+</body>
+
+</html>
