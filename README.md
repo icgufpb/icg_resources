@@ -21,7 +21,7 @@ ICG resources.
 
 ## Libraries
 
-* [Three.js](https://threejs.org).
+* [Three.js](https://threejs.org), official site.
 
 * [Three.js Fundamentals](https://threejsfundamentals.org).
 
