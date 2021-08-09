@@ -5,15 +5,15 @@ ICG classes resources.
 
 ### Computer Graphics in General
 
-* [Computer Graphics from Scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/index.html), por Gabriel Gambetta.
+* [Computer Graphics from Scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/index.html), by Gabriel Gambetta.
 
-* [Introduction to Computer Graphics](https://math.hws.edu/graphicsbook/), por David J. Eck.
+* [Introduction to Computer Graphics](https://math.hws.edu/graphicsbook/), by David J. Eck.
 
 ### Math
 
-* [3D Math Primer for Graphics and Game Development](https://gamemath.com), por Fletcher Dunn e Ian Parbery.
+* [3D Math Primer for Graphics and Game Development](https://gamemath.com), by Fletcher Dunn and Ian Parbery.
 
-* [Immersive Linear Algebra](http://immersivemath.com/ila/index.html), por J. Ström, K. Åström, and T. Akenine-Möller.
+* [Immersive Linear Algebra](http://immersivemath.com/ila/index.html), by J. Ström, K. Åström, and T. Akenine-Möller.
 
 ### Libraries
 
