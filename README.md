@@ -1,6 +1,22 @@
 # icg
-Material das aulas de ICG da UFPB.
+ICG classes resources.
 
-## Referências
+## References
 
-[3D Math Primer for Graphics and Game Development](https://gamemath.com), por Fletcher Dunn e Ian Parbery.
+### Computer Graphics in General
+
+* [Computer Graphics from Scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/index.html), por Gabriel Gambetta.
+
+* [Introduction to Computer Graphics](https://math.hws.edu/graphicsbook/), por David J. Eck.
+
+### Math
+
+* [3D Math Primer for Graphics and Game Development](https://gamemath.com), por Fletcher Dunn e Ian Parbery.
+
+* [Immersive Linear Algebra](http://immersivemath.com/ila/index.html), por J. Ström, K. Åström, and T. Akenine-Möller.
+
+### Libraries
+
+* [Three.js](https://threejs.org).
+
+* [Three.js Fundamentals](https://threejsfundamentals.org).
