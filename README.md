@@ -25,7 +25,7 @@ ICG resources.
 
 * [Three.js Fundamentals](https://threejsfundamentals.org).
 
-## APIs
+## Graphics APIs
 
 ### OpenGL
 
