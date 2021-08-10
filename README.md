@@ -11,7 +11,7 @@ ICG resources.
 
 ## Ray Tracing
 
-* [An Introduction to Ray Tracing](https://www.realtimerendering.com/raytracing/An-Introduction-to-Ray-Tracing-The-Morgan-Kaufmann-Series-in-Computer-Graphics-.pdf), by Andrew Glassner and freely available at [https://www.realtimerendering.com](https://www.realtimerendering.com).
+* [An Introduction to Ray Tracing](https://www.realtimerendering.com/raytracing/An-Introduction-to-Ray-Tracing-The-Morgan-Kaufmann-Series-in-Computer-Graphics-.pdf), by Andrew Glassner.
 
 ## Math
 
