@@ -38,3 +38,11 @@ ICG resources.
 ### Game/Rendering Engine Development
 
 * [Game Engine Series](https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT), by Yan Chernikov (The Cherno).
+
+### Blogs (alphabetical)
+
+* [Matt Pharr's blog](https://pharr.org/matt/blog/), by Matt Pharr.
+
+* [Pete Shirley's Graphics Blog](http://psgraphics.blogspot.com/), by Peter Shirley.
+
+* [Ray Tracey's blog](http://raytracey.blogspot.com/), by Sam Lapere.
