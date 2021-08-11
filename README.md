@@ -55,6 +55,8 @@ ICG resources.
 
 ## Blogs (alphabetical)
 
+* [INTERPLAY OF LIGHT](https://interplayoflight.wordpress.com/), by Kostas Anagnostou.
+
 * [Jacco’s Blog](https://jacco.ompf2.com), by [Jacco Biker](https://jacco.ompf2.com/about-me).
 
 * [Matt Pharr's blog](https://pharr.org/matt/blog), by Matt Pharr.
