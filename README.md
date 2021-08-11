@@ -29,9 +29,13 @@ ICG resources.
 
 ### OpenGL
 
+* [OpenGL](https://www.khronos.org/opengl/), official site.
+
 * [OpenGL](http://www.songho.ca/opengl/index.html), by [Song Ho Ahn](http://www.songho.ca).
 
 ### Vulkan
+
+* [Vulkan](https://www.vulkan.org/), official site.
 
 * [Vulkan Tutorial](https://vulkan-tutorial.com), by Alexander Overvoorde.
 
@@ -39,14 +43,22 @@ ICG resources.
 
 * [Game Engine Series](https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT), by Yan Chernikov (The Cherno).
 
-## Tools (debuggers, profilers, etc.)
+## Software 
+
+### Frameworks
+
+[Lighthouse 2](https://github.com/jbikker/lighthouse2), by [Jacco Biker](https://jacco.ompf2.com/about-me).
+
+### Tools (debuggers, profilers, etc.)
 
 * [RenderDoc](https://github.com/baldurk/renderdoc), by Baldur Karlsson.
 
 ## Blogs (alphabetical)
 
-* [Matt Pharr's blog](https://pharr.org/matt/blog/), by Matt Pharr.
+* [Jacco’s Blog](https://jacco.ompf2.com), by [Jacco Biker](https://jacco.ompf2.com/about-me).
 
-* [Pete Shirley's Graphics Blog](http://psgraphics.blogspot.com/), by Peter Shirley.
+* [Matt Pharr's blog](https://pharr.org/matt/blog), by Matt Pharr.
+
+* [Pete Shirley's Graphics Blog](http://psgraphics.blogspot.com), by Peter Shirley.
 
 * [Ray Tracey's blog](http://raytracey.blogspot.com/), by Sam Lapere.
