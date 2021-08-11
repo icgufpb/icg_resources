@@ -1,7 +1,7 @@
 # icg
 ICG resources.
 
-## Computer Graphics in General
+## Computer Graphics 
 
 * [Computer Graphics from Scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/index.html), by Gabriel Gambetta.
 
