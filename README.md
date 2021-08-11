@@ -47,7 +47,7 @@ ICG resources.
 
 ### Frameworks
 
-[Lighthouse 2](https://github.com/jbikker/lighthouse2), by [Jacco Biker](https://jacco.ompf2.com/about-me).
+ * [Lighthouse 2](https://github.com/jbikker/lighthouse2), by [Jacco Biker](https://jacco.ompf2.com/about-me).
 
 ### Tools (debuggers, profilers, etc.)
 
