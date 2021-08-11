@@ -39,7 +39,7 @@ ICG resources.
 
 * [Game Engine Series](https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT), by Yan Chernikov (The Cherno).
 
-### Tools (debuggers, profilers, etc.)
+## Tools (debuggers, profilers, etc.)
 
 * [RenderDoc](https://github.com/baldurk/renderdoc), by Baldur Karlsson.
 
